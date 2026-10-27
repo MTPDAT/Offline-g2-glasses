@@ -1,0 +1,9 @@
+10-27 18:00:01.100  4321  4321 I Metrics : STARTUP	engine=vosk	lang=pt	modelUnpackMs=2400	mlkitReadyMs=900
+10-27 18:00:05.200  4321  4321 I Metrics : CAPTION	1	120	18	17	bom dia a todos	good morning everyone
+10-27 18:00:06.300  4321  4321 I Metrics : CAPTION	2	180	20	21	onde fica a estação	where is the station
+10-27 18:00:06.400  4321  4400 I Metrics : WAV_DONE	tts_01.wav	3.100	1.200	0.387
+10-27 18:00:06.500  4321  4321 I Metrics : RESULT	tts_01.wav	bom dia a todos	good morning everyone
+10-27 18:01:00.000  4321  4321 I Metrics : STARTUP	engine=whisper-base	lang=pt	modelUnpackMs=1800	mlkitReadyMs=700
+10-27 18:01:09.000  4321  4321 I Metrics : CAPTION	3	150	15	21	bom dia a todos	good morning everyone
+10-27 18:01:09.100  4321  4500 I Metrics : WAV_DONE	tts_01.wav	3.100	2.900	0.935
+10-27 18:01:09.200  4321  4321 I Metrics : RESULT	tts_01.wav	Bom dia a todos.	Good morning everyone.

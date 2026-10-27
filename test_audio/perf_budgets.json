@@ -1,0 +1,20 @@
+{
+  "_comment": "Performance budgets for scripts/validate_perf.py. Keys: default, an engine family (vosk, parakeet, whisper) or an exact engine id (whisper-small). Times in ms; rtf_max is ASR time / audio time.",
+  "default": {
+    "startup_model_ms": 15000,
+    "startup_mlkit_ms": 10000,
+    "translate_p95_ms": 500,
+    "rtf_max": 1.0
+  },
+  "parakeet": {
+    "startup_model_ms": 30000
+  },
+  "whisper": {
+    "startup_model_ms": 10000,
+    "rtf_max": 0.8
+  },
+  "whisper-large-v3-turbo": {
+    "startup_model_ms": 30000,
+    "rtf_max": 1.5
+  }
+}
