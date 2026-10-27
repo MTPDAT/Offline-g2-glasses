@@ -1,0 +1,13 @@
+Add Whisper speech engine: whisper.cpp NDK build and model selection
+
+- app/src/main/cpp: CMake fetches whisper.cpp v1.9.5 (SHA-256 pinned) and links
+  whisper + ggml statically into libwhisper_jni.so; arm64 targets armv8.2-a+fp16,
+  -O3 even in debug builds, no OpenMP, 16 KB page aligned (NDK r28)
+- whisper_jni.cpp: load / transcribe / free / system info; text returned as UTF-8 bytes
+- WhisperSpeechToText: Silero VAD sentences decoded by whisper.cpp in the spoken language
+- WhisperModel + WhisperModelSelector: tiny, base, small, large-v3-turbo (q5); picks from
+  model.txt, phone RAM and the files present
+- AsrEngine: WHISPER entry; create() takes the spoken language
+- build.gradle.kts: ndkVersion 28.2.13676358, CMake 3.31.0; R8 keeps the JNI methods
+- scripts/fetch_whisper.{sh,ps1}: download a model + VAD, push them with model.txt
+- docs/WHISPER.md
