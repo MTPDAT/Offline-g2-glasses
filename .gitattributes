@@ -1,0 +1,7 @@
+*.sh text eol=lf
+gradlew text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+# make and docker break on CRLF; keep them LF on every checkout
+Makefile text eol=lf
+Dockerfile text eol=lf

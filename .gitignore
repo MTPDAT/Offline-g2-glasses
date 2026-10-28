@@ -1,0 +1,32 @@
+# Android / Gradle
+.gradle/
+build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.iml
+*.apk
+*.aab
+
+# IDE (keep shared run configs if any)
+.idea/*
+!.idea/runConfigurations/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models and test audio are fetched/recorded locally, never committed
+G2glasses/app/src/main/assets/model-pt/
+G2glasses/app/src/main/assets/test/*.wav
+scripts/.cache/
+
+# Collected metrics
+metrics*.txt
+
+# Docker build outputs (make docker-build)
+docker/out/
+
+# sherpa-onnx AAR (scripts/fetch_models.*)
+app/libs/*.aar
