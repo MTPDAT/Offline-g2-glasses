@@ -24,3 +24,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "G2 glasses"
 include(":app")
+include(":glasses-ui")
+include(":g2-gateway")

@@ -1,0 +1,13 @@
+file,use_case,reference_source,reference_english
+tts_01.wav,shop,Quanto custa esta camisa?,How much does this shirt cost?
+tts_02.wav,shop,Vocês aceitam cartão de crédito?,Do you accept credit cards?
+tts_03.wav,shop,"Eu gostaria de um café com leite, por favor.","I would like a coffee with milk, please."
+tts_04.wav,shop,Posso experimentar este sapato?,Can I try on this shoe?
+tts_05.wav,directions,Onde fica a estação de metrô mais próxima?,Where is the nearest subway station?
+tts_06.wav,directions,Siga em frente e vire à esquerda na segunda rua.,Go straight ahead and turn left at the second street.
+tts_07.wav,directions,O hospital fica a dez minutos daqui.,The hospital is ten minutes from here.
+tts_08.wav,directions,Como eu chego ao aeroporto?,How do I get to the airport?
+tts_09.wav,announcement,"Atenção passageiros, o trem para São Paulo está atrasado.","Attention passengers, the train to São Paulo is delayed."
+tts_10.wav,announcement,O embarque será realizado no portão doze.,Boarding will take place at gate twelve.
+tts_11.wav,announcement,A loja vai fechar em quinze minutos.,The store will close in fifteen minutes.
+tts_12.wav,announcement,"Por favor, não deixe sua bagagem sem supervisão.",Please do not leave your luggage unattended.

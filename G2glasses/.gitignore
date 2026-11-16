@@ -1,0 +1,17 @@
+.gradle/
+build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.iml
+.kotlin/
+.idea/*
+!.idea/runConfigurations/
+
+# Vosk model (scripts/fetch_models.*) and local test WAVs
+app/src/main/assets/model-pt/
+app/src/main/assets/test/*.wav
+
+# sherpa-onnx AAR (scripts/fetch_models.*)
+app/libs/*.aar
